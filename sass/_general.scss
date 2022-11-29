@@ -1,0 +1,21 @@
+$paleBlue: hsl(225, 100%, 94%);
+$brightBlue: hsl(245, 75%, 52%);
+$btnActive: #766cf1;
+$brightBlueShadow: hsl(245, 75%, 52%, 0.3);
+$veryPaleBlue: hsl(225, 100%, 98%);
+$desaturatedBlue: hsl(224, 23%, 55%);
+$darkBlue: hsl(223, 47%, 23%);
+$white: #fff;
+$fontTitle: 900;
+$fontSubtitle: 700;
+$fontGeneral: 500;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
