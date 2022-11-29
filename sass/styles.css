@@ -32,34 +32,30 @@ body {
   overflow: hidden;
   width: 90%;
 }
-
-.card__preview img {
+.card .card__preview img {
   background-size: cover;
   width: 100%;
 }
-
-.card__body {
+.card .card__body {
   display: flex;
   flex-direction: column;
   font-weight: 500;
   margin: 1rem auto;
   width: 85%;
 }
-
 @media (min-width: 768px) {
-  .card__body {
+  .card .card__body {
     width: 80%;
   }
 }
-.card__title {
+.card .card__title {
   color: hsl(223deg, 47%, 23%);
   font-size: 2rem;
   font-weight: 900;
   margin: 1.6rem 0 1.2rem;
   text-align: center;
 }
-
-.card__paragraph {
+.card .card__paragraph {
   color: hsl(224deg, 23%, 55%);
   font-size: 1.4rem;
   line-height: 2.6rem;
@@ -68,8 +64,7 @@ body {
   padding: 0 1.5rem;
   text-align: center;
 }
-
-.card__info {
+.card .card__info {
   background-color: hsl(225deg, 100%, 98%);
   border-radius: 1.2rem;
   display: flex;
@@ -78,58 +73,43 @@ body {
   padding: 1.6rem;
   width: 100%;
 }
-
-.card__plan {
+.card .card__plan {
   align-items: center;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-
-.card__plan--info {
+.card .card__plan--info {
   align-items: center;
   display: flex;
 }
-
-.card__plan--price {
+.card .card__plan--price {
   margin-left: 1.8rem;
 }
-.card__plan--price h3 {
+.card .card__plan--price h3 {
   color: hsl(223deg, 47%, 23%);
   font-size: 1.5rem;
   font-weight: 900;
 }
-.card__plan--price h3 span {
-  background-color: hsl(225deg, 100%, 94%);
-  color: hsl(223deg, 47%, 23%);
-}
-.card__plan--price span {
-  color: hsl(224deg, 23%, 55%);
-  font-size: 1.5rem;
-}
-
-.card__plan--option {
+.card .card__plan--option {
   color: hsl(245deg, 75%, 52%);
   font-size: 1.2rem;
 }
-
-.card__plan--option:hover {
+.card .card__plan--option:hover {
   color: #766cf1;
   text-decoration: none;
 }
-
-.card__actions {
+.card .card__actions {
   margin: 0.5rem auto 2rem;
   text-align: center;
   width: 85%;
 }
-
 @media (min-width: 768px) {
-  .card__actions {
+  .card .card__actions {
     width: 80%;
   }
 }
-.card__actions a {
+.card .card__actions a {
   border-radius: 1.2rem;
   display: block;
   font-size: 1.4rem;
@@ -138,25 +118,21 @@ body {
   padding: 1.6rem 0 1.2rem;
   text-decoration: none;
 }
-
-.card__actions a:nth-child(1) {
+.card .card__actions a:nth-child(1) {
   background-color: hsl(245deg, 75%, 52%);
   box-shadow: 0rem 1.1rem 2rem hsla(245deg, 75%, 52%, 0.3);
   color: #fff;
   margin-bottom: 1.2rem;
 }
-
-.card__actions a:nth-child(1):hover {
+.card .card__actions a:nth-child(1):hover {
   background-color: #766cf1;
   box-shadow: 0rem 1.1rem 2rem hsla(245deg, 75%, 52%, 0.3);
 }
-
-.card__actions a:nth-child(2) {
+.card .card__actions a:nth-child(2) {
   background-color: transparent;
   color: hsl(224deg, 23%, 55%);
 }
-
-.card__actions a:nth-child(2):hover {
+.card .card__actions a:nth-child(2):hover {
   color: hsl(223deg, 47%, 23%);
 }
 
