@@ -1,3 +1,3 @@
 # OrderSummary-FrontendMentor
 
-### 🚀 [OrderSummary-FrontendMentor](https://github.com/kevencb/Order-Summary-FrontendMentor/)
+### 🚀 [OrderSummary-FrontendMentor](https://kevencb.github.io/Order-Summary-FrontendMentor/)
